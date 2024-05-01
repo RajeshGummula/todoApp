@@ -4,11 +4,8 @@ const Navbar = () => {
     <div>
    <nav className="navbar bg-body-tertiary ">
   <div className="container-fluid">
-    <a className="navbar-brand" href='/'>Todo</a>
-    <div className='d-flex '>
-    <a href="/" className='remover mx-2'>Home</a>
-    <a href="/" className='remover'>Your Tasks</a>
-    </div>
+    <a className="navbar-brand text-dark font-weight-bold" href='/'><h3>TodoApp</h3></a>
+ 
   </div>
 </nav>
     </div>
